@@ -1,6 +1,6 @@
-import { ApiErros } from "./ApiErros";
-import { uploadFile } from "./FileUpload";
-import asynHandler from "./asynHandler";
+import { ApiErros } from "./ApiErros.js";
+import { uploadFile } from "./FileUpload.js";
+import asynHandler from "./asynHandler.js";
 
 
 const destroyFile=asynHandler(async(publicUrl)=>
